@@ -41,7 +41,10 @@
             <h3>Nuestro blog </h3>
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img loading="lazy" src="image/blog1.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="image/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="image/blog1.jpg" alt="imagen blog">
+                    </picture>
                 </div>
 
                 <div class="entrada__contenido">
@@ -57,7 +60,10 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img loading="lazy" src="image/blog2.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="image/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="image/blog2.jpg" alt="imagen blog">
+                    </picture>
                 </div>
                 
                 <div class="entrada__contenido">
@@ -70,10 +76,12 @@
                         <a href="entrada.html" class="boton boton--primario">Leer entrada </a>
                 </div>
             </article>
-
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img loading="lazy" src="image/blog3.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="image/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="image/blog3.jpg" alt="imagen blog">
+                    </picture>
                 </div>
 
                 <div class="entrada__contenido">
@@ -133,6 +141,7 @@
         </div>
     </footer>
 
-</body>
+    <script src="js/modernize.js"></script>
 
+</body>
 </html>
